@@ -1,0 +1,15 @@
+{
+    "name": "buildok/helpers",
+    "type": "package",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"buildok\\helpers\\": "src"
+    	}
+    },
+    "autoload-dev": {
+    	"psr-4": {
+    		"buildok\\helpers\\test\\": "tests"
+    	}
+    }
+}
