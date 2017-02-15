@@ -58,7 +58,7 @@ class ArrayWrapper
      */
     public function __get($name)
     {
-        $value = isset($this->data[$name]) ? $this->data[$name] : NULL;
+        $value = array_key_exists($name, $this->data) ? $this->data[$name] : null;
 
         return $value;
     }
